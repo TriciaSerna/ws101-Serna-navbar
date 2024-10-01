@@ -2,27 +2,21 @@ import Navbar from "./Navbar"
 import Home from "./component/Home"
 import About from "./component/About"
 import Contact from "./component/Contact"
+import { Route, Routes } from "react-router-dom"
 
-function App () {
-  let Component
-  switch (window.location.pathname) {
-    case "/":
-      Component = <Home/>
-      case "/home":
-        Component = <Home/>
-        break
-        case "/about":
-          Component = <About/>
-          break
-          case "/contact":
-            Component = <Contact/>
-            break
-  }
-  return ( 
-  <>
-  <Navbar/>
-  <div className="container">{Component}</div>
-  </>
+function App() {
+  return (
+    <>
+      <Navbar />
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+    </>
   )
 }
 
