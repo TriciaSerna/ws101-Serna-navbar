@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ws101-serna-navbar/static/css/main.137dd8c0.css",
+    "main.js": "/ws101-serna-navbar/static/js/main.336b1b6f.js",
+    "static/media/bg3.png": "/ws101-serna-navbar/static/media/bg3.be3557c762388b591c84.png",
+    "static/media/bg1.png": "/ws101-serna-navbar/static/media/bg1.dd5ffb850ace2db0b854.png",
+    "static/media/bg2.jpg": "/ws101-serna-navbar/static/media/bg2.d5a418d51192211738d4.jpg",
+    "index.html": "/ws101-serna-navbar/index.html",
+    "main.137dd8c0.css.map": "/ws101-serna-navbar/static/css/main.137dd8c0.css.map",
+    "main.336b1b6f.js.map": "/ws101-serna-navbar/static/js/main.336b1b6f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.137dd8c0.css",
+    "static/js/main.336b1b6f.js"
+  ]
+}
